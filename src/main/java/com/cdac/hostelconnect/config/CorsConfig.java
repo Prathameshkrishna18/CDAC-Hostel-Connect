@@ -19,7 +19,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://cdac-hostel-connect-frontend.vercel.app/"
+                                "https://cdac-hostel-connect-frontend.vercel.app"
                         )
                         .allowedMethods(
                                 "GET",
